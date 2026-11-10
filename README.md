@@ -6,7 +6,7 @@ Profissional de dados com experiência em Business Intelligence, modelagem dimen
 
 Atualmente sou Analista de Dados na **Softplan**. Sou bacharel em Sistemas de Informação e pós-graduado em Big Data.
 
-[LinkedIn](https://www.linkedin.com/in/joaopedrodosanjos/) · Florianópolis, Brasil
+[LinkedIn](https://www.linkedin.com/in/joaopedrodosanjos/) · Blumenau, SC, Brasil
 
 ## Competências
 
