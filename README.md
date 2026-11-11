@@ -1,44 +1,60 @@
-# João Pedro dos Anjos
+# Portfólio de projetos
 
-### Analista de Dados | Business Intelligence | Modelagem de Dados | Python
+João Pedro dos Anjos · Analista de Dados na Softplan
 
-Profissional de dados com experiência em Business Intelligence, modelagem dimensional, ETL e desenvolvimento de dashboards. Trabalho com SQL e plataformas analíticas corporativas e também desenvolvo automações e ferramentas em Python para resolver problemas práticos de dados e operação.
+Projetos autorais que exploram problemas concretos em dados, automação e desenvolvimento de software. Os projetos abaixo são apresentados como estudos de caso; **os repositórios de código-fonte são privados**. Apenas os serviços identificados como demonstrações têm acesso público.
 
-Atualmente sou Analista de Dados na **Softplan**. Sou bacharel em Sistemas de Informação e pós-graduado em Big Data.
+## Dados e produtos
 
-[LinkedIn](https://www.linkedin.com/in/joaopedrodosanjos/) · Blumenau, SC, Brasil
+### ExtratoFácil
+Converte extratos bancários em PDF ou foto para Excel, CSV e OFX.
 
-## Competências
+- **Problema:** transformar extratos de formatos variados em lançamentos utilizáveis, sem perder a conferência dos valores.
+- **Abordagem:** tenta primeiro extrair o texto do PDF; recorre à IA quando a extração não é suficiente ou quando o documento é uma imagem. Valida os lançamentos pela equação de saldo: saldo anterior + entradas − saídas = saldo final.
+- **Demonstração:** [extratofacil.duckdns.org](https://extratofacil.duckdns.org)
 
-- **BI e analytics:** Power BI, DAX, Power Query (M), SSAS, KPIs e dashboards
-- **Modelagem e integração:** modelagem dimensional (Star Schema e Snowflake), ETL e qualidade de dados
-- **Bancos de dados:** SQL, Oracle, SQL Server, IBM DB2, PostgreSQL e MySQL
-- **Desenvolvimento e automação:** Python, APIs, processamento de arquivos e scripts
-- **Plataformas e ferramentas:** Linux, Bash, Azure, OCI, Git e Jira
+### Radar Imobiliário de Blumenau
+Reúne anúncios de apartamentos à venda e para aluguel no entorno do Hospital Santa Isabel.
 
-## Projetos
+- **Problema:** comparar anúncios dispersos e encontrar opções relevantes pela localização e características.
+- **Abordagem:** coleta anúncios, valida a localização, consolida duplicidades e organiza os resultados em painel com mapa e filtros.
+- **Demonstração:** [imoveiscapivari.duckdns.org](https://imoveiscapivari.duckdns.org)
 
-Projetos pessoais que aplicam dados, automação e desenvolvimento de software a problemas reais. Alguns repositórios de código são privados; os links abaixo apontam somente para serviços públicos.
+### Capi Finanças
+Sistema privado para registrar e consultar despesas domésticas.
 
-### [ExtratoFácil](https://extratofacil.duckdns.org)
-Processa extratos bancários em PDF ou imagem e gera Excel, CSV e OFX. O fluxo valida a conciliação de saldo e usa extração direta ou IA conforme o documento.
-
-### [Radar Imobiliário de Blumenau](https://imoveiscapivari.duckdns.org)
-Agrega anúncios imobiliários, valida localização, remove duplicidades e apresenta oportunidades em um painel com mapa e filtros.
+- **Problema:** reduzir o trabalho de transcrever gastos e faturas para uma planilha.
+- **Abordagem:** reúne mensagens coladas do WhatsApp, lançamentos rápidos e importação de faturas PDF, CSV e OFX em uma fila de revisão. Categorias e formas de pagamento podem ser corrigidas antes da sincronização com o Google Sheets; consultas resumem os gastos por mês, categoria e meio de pagamento.
+- **Acesso:** sem demonstração pública; a aplicação contém dados financeiros privados.
 
 ### Radar Freela
-Automação em Python para encontrar e priorizar projetos freelance de Dados/BI, gerar propostas assistidas por IA e enviar notificações pelo Telegram.
+Automação para encontrar oportunidades freelance de Dados e BI.
+
+- **Problema:** acompanhar oportunidades em plataformas diferentes e priorizar quais merecem atenção.
+- **Abordagem:** busca projetos, usa IA para avaliá-los e organizá-los por prioridade, apoia o envio de propostas e envia notificações pelo Telegram.
+
+## Software, integração e automação
 
 ### NanoKVM
-Launcher para PC e aplicativo Android para acessar um KVM remotamente, com suporte a rede local e Tailscale.
+Cliente para acessar um dispositivo NanoKVM a partir de um PC Windows ou celular Android.
+
+- **Problema:** simplificar a descoberta do dispositivo na rede e o acesso local ou remoto.
+- **Abordagem:** o launcher localiza o NanoKVM e abre sua interface em uma janela dedicada; no Android, o app oferece uma experiência em tela cheia. O acesso remoto pode usar Tailscale quando configurado.
+- **Código-fonte:** privado.
+
+### Tibiatimer
+Bot do Discord com avisos de voz para mecânicas de chefes de Tibia, acionados por teclas de atalho no PC.
+
+- **Problema:** coordenar contagens e avisos durante uma chamada de voz sem depender de acionamentos manuais no Discord.
+- **Abordagem:** combina contagens regressivas e ciclos repetidos de avisos; os cronômetros podem rodar juntos, com prioridade para a contagem curta.
+- **Código-fonte:** privado.
 
 ### Civ5 Crash Guard
-Ferramenta de monitoramento e manutenção de uma instalação de Civilization V com muitos mods, incluindo reaplicação de correções e ferramentas de diagnóstico.
+Ferramenta de estabilidade e manutenção para uma instalação de Civilization V com muitos mods.
 
-## Formação
-
-- Pós-graduação em Big Data — Universidade Estácio de Sá
-- Bacharelado em Sistemas de Informação — Universidade Estácio de Sá
+- **Problema:** investigar falhas e manter correções aplicadas entre atualizações do jogo e dos mods.
+- **Abordagem:** monitora o jogo, lê logs e dumps, gera informações de diagnóstico e reaplica correções verificadas. O projeto também reúne mods próprios e ferramentas de apoio para esse ambiente.
+- **Código-fonte e arquivos:** privados; não é uma distribuição de mods ou arquivos de terceiros.
 
 ## Contato
 
