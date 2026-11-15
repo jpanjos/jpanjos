@@ -3,17 +3,18 @@
 Instrucoes para qualquer agente de IA (Claude, Codex, Antigravity/Gemini, Copilot) neste repositorio.
 
 ## Projeto
-TODO: o que este projeto faz, em 2-3 linhas.
+README de perfil do GitHub (`jpanjos/jpanjos`, repositorio PUBLICO): portfolio profissional em Dados, BI e automacao.
+So Markdown; os projetos citados sao privados e aparecem como estudos de caso.
 
 ## Como rodar
-TODO: ex. `python -m venv .venv`, `pip install -r requirements.txt`, `python main.py`
+Nada para rodar. Confira a renderizacao do `README.md` no GitHub ou num visualizador de Markdown.
 
 ## Testes
-TODO: ex. `pytest -q`. Rode os testes antes de considerar uma tarefa pronta.
+Sem testes automaticos. Antes de concluir, confira se todos os links abrem e se nenhum repositorio privado aparece como link.
 
 ## Convencoes
 - Python: PEP 8, type hints em funcoes publicas, logging em vez de print.
-- SQL: TODO dialeto(s) usado(s) (Oracle / SQL Server / PostgreSQL / DB2).
+- Textos em portugues; nao inventar experiencia, numeros ou habilidades que os projetos nao comprovem.
 - Commits pequenos e com mensagem descritiva.
 
 ## Divisao entre agentes
