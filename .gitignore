@@ -1,0 +1,17 @@
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.vscode/
+.idea/
+
+# Ambientes e segredos locais
+.venv/
+.env
+.env.*
+
+# Rascunhos
+*.tmp
+*.bak
