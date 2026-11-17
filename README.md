@@ -13,6 +13,7 @@ Converte extratos bancários em PDF ou foto para Excel, CSV e OFX.
 - **Abordagem:** tenta primeiro extrair o texto do PDF; recorre à IA quando a extração não é suficiente ou quando o documento é uma imagem. Valida os lançamentos pela equação de saldo: saldo anterior + entradas − saídas = saldo final.
 - **Tecnologias:** Python, FastAPI, pdfplumber, DuckDB, Gemini.
 - **Demonstração:** [extratofacil.duckdns.org](https://extratofacil.duckdns.org)
+- **Privacidade:** os arquivos enviados ficam retidos por tempo limitado e depois são apagados automaticamente.
 
 ### Radar Imobiliário de Blumenau
 Reúne anúncios de apartamentos à venda e para aluguel no entorno do Hospital Santa Isabel.
@@ -20,7 +21,7 @@ Reúne anúncios de apartamentos à venda e para aluguel no entorno do Hospital 
 - **Problema:** comparar anúncios dispersos e encontrar opções relevantes pela localização e pelas características do imóvel.
 - **Abordagem:** coleta anúncios, valida a localização, consolida duplicidades e organiza os resultados em um painel com mapa e filtros.
 - **Tecnologias:** Python, FastAPI, httpx, Beautiful Soup.
-- **Demonstração:** [imoveiscapivari.duckdns.org](https://imoveiscapivari.duckdns.org)
+- **Demonstração:** [imoveiscapivari.duckdns.org](https://imoveiscapivari.duckdns.org) — o subdomínio usa "Capivari", nome interno do projeto.
 
 ### Capi Finanças
 Sistema privado para registrar e consultar despesas domésticas.
