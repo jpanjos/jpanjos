@@ -1,34 +1,34 @@
 # AGENTS.md
 
-Instrucoes para qualquer agente de IA (Claude, Codex, Antigravity/Gemini, Copilot) neste repositorio.
+Instruções para qualquer agente de IA (Claude, Codex, Antigravity/Gemini, Copilot) neste repositório.
 
 ## Projeto
-README de perfil do GitHub (`jpanjos/jpanjos`, repositorio PUBLICO): portfolio profissional em Dados, BI e automacao.
-So Markdown; os projetos citados sao privados e aparecem como estudos de caso.
+README de perfil do GitHub (`jpanjos/jpanjos`, repositório PÚBLICO): portfólio profissional em Dados, BI e automação.
+Só Markdown; os projetos citados são privados e aparecem como estudos de caso.
 
 ## Como rodar
-Nada para rodar. Confira a renderizacao do `README.md` no GitHub ou num visualizador de Markdown.
+Nada para rodar. Confira a renderização do `README.md` no GitHub ou num visualizador de Markdown.
 
 ## Testes
-Sem testes automaticos. Antes de concluir, confira se todos os links abrem e se nenhum repositorio privado aparece como link.
+Sem testes automáticos. Antes de concluir, confira se todos os links abrem e se nenhum repositório privado aparece como link.
 
-## Convencoes
-- Python: PEP 8, type hints em funcoes publicas, logging em vez de print.
-- Textos em portugues; nao inventar experiencia, numeros ou habilidades que os projetos nao comprovem.
+## Convenções
+- Python: PEP 8, type hints em funções públicas, logging em vez de print.
+- Textos em português; não inventar experiência, números ou habilidades que os projetos não comprovem.
 - Commits pequenos e com mensagem descritiva.
 
-## Divisao entre agentes
+## Divisão entre agentes
 | Tipo de tarefa                                  | Agente         |
 |-------------------------------------------------|----------------|
-| Planejamento, arquitetura, revisao, integracao  | Claude         |
-| Implementacao de scripts Python, SQL e testes   | Codex (GPT)    |
-| Documentacao, README, pesquisa de bibliotecas   | Gemini (agy)   |
+| Planejamento, arquitetura, revisão, integração  | Claude         |
+| Implementação de scripts Python, SQL e testes   | Codex (GPT)    |
+| Documentação, README, pesquisa de bibliotecas   | Gemini (agy)   |
 | Ajustes pequenos, boilerplate, mensagens commit | Copilot        |
 
 ## Prioridade da semana
-Normal. (Troque para algo como "Claude perto do limite: delegue mais ao Codex".)
+Normal.
 
-## Nao fazer
-- Nao ler, editar ou enviar o conteudo de `.env` ou arquivos de credenciais.
-- Nao editar fora da pasta/branch da sua tarefa.
-- Nao instalar dependencias novas sem registrar no requirements/pyproject.
+## Não fazer
+- Não ler, editar ou enviar o conteúdo de `.env` ou arquivos de credenciais.
+- Não editar fora da pasta/branch da sua tarefa.
+- Não instalar dependências novas sem registrar no requirements/pyproject.
