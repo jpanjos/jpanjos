@@ -18,12 +18,8 @@ Sem testes automáticos. Antes de concluir, confira se todos os links abrem e se
 - Commits pequenos e com mensagem descritiva.
 
 ## Divisão entre agentes
-| Tipo de tarefa                                  | Agente         |
-|-------------------------------------------------|----------------|
-| Planejamento, arquitetura, revisão, integração  | Claude         |
-| Implementação de scripts Python, SQL e testes   | Codex (GPT)    |
-| Documentação, README, pesquisa de bibliotecas   | Gemini (agy)   |
-| Ajustes pequenos, boilerplate, mensagens commit | Copilot        |
+Quem faz o quê e com qual modelo segue a política de roteamento de modelos do autor, mantida fora deste repositório (níveis de tarefa, privacidade e cota).
+Se você é um worker com uma tarefa, apenas execute-a; não delegue.
 
 ## Prioridade da semana
 Normal.
