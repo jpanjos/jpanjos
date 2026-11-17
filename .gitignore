@@ -11,6 +11,20 @@ desktop.ini
 .venv/
 .env
 .env.*
+*.key
+*.pem
+credentials*.json
+users.json
+sessao_*.json
+
+# Bancos de dados e logs locais
+*.db
+*.sqlite*
+*.log
+
+# Dependências e caches
+__pycache__/
+node_modules/
 
 # Rascunhos
 *.tmp
