@@ -1,0 +1,2 @@
+# Normaliza os arquivos de texto para LF no repositório e no checkout.
+* text=auto eol=lf
