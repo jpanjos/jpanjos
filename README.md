@@ -39,6 +39,14 @@ Automação para encontrar oportunidades freelance de Dados e BI.
 - **Tecnologias:** Python, Playwright, API do Freelancer.com, Telegram.
 - **Acesso:** sem demonstração pública.
 
+### Teleus Automate
+Ferramenta de apoio para avaliação de qualidade de páginas web.
+
+- **Problema:** aplicar critérios de qualidade de forma consistente a muitas páginas exige ler o conteúdo, consultar diretrizes extensas e preencher formulários repetitivos.
+- **Abordagem:** busca a página, usa IA para aplicar uma rubrica de qualidade, gera um resumo em português e um preenchimento que a pessoa revisa manualmente; o envio é sempre manual.
+- **Tecnologias:** Python, tkinter, Playwright, JavaScript (userscript), modelos de linguagem via CLI/API.
+- **Acesso:** sem demonstração pública.
+
 ## Software, integração e automação
 
 ### NanoKVM
